@@ -51,7 +51,7 @@ if __name__ == "__main__":
           assert filename.endswith(".log")
 
           proofmethod = filename[:-4]
-          print(proofmethod)
+          #print(proofmethod)
 
           with open(longname, "r") as f:
             result = None
